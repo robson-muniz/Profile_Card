@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font: 'Poppins', sans-serif;
+/*   background: linear-gradient(to right, #1c92d2, #f2fcfe);*/
+  background: linear-gradient(to right, #6190e8, #a7bfe8);
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #b3b8cd;
+}
+
+section{
+  width: 30rem;
+  position: absolute;
+
+  /*
+  box-shadow: 2px 10px 20px -10px rgba(0,0,0,0.75); */
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.75);
+
+}
+
+.personal{
+  background-color: #231e39;
+  padding: 2.5rem 0 1.5rem 0;
+  text-align: center;
+}
+
+.personal .name{
+  margin-top: 1.3rem;
+}
+
+.personal .country{
+  font-size: 1.3rem;
+  margin: 0.2rem;
+}
+
+.personal .stack{
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+}
+
+.personal button{
+  border: 1px solid #03bfcb;
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.3rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.personal button.primary{
+  background-color: #03bfcb;
+  color: #231e39;
+}
+
+.personal button.secondary{
+  background-color: transparent;
+  color: #02899c;
+}
+
+.personal .pro{
+  background-color: #febb0b;
+  color: #231e39;
+  border-radius: 0.2rem;
+  font-size: 1.4rem;
+  padding: 0.1rem 0.8rem;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.personal img{
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 0.2rem solid #03bfcb;
+}
+
+.social i{
+  font-size: 1.8rem;
+  margin: 1rem 0.4rem;
+  color: #b3b8cd;
+  transition: color 0.5s
+}
+
+.fa-linkedin-in:hover{
+  color: #0a66c2;
+}
+
+.fa-twitter:hover{
+  color: #1da1f2;
+}
+
+.fa-instagram:hover{
+  color: #c32aa3;
+}
+
+.fa-github:hover{
+  color: #171515;
+}
+
+.fa-youtube:hover{
+  color: #ff0000;
+}
+
+
+
+.skills{
+  background-color: #1f1a36;
+  padding: 1.6rem 1rem;
+}
+
+.skills h2{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills ul li{
+  display: inline-block;
+  list-style-type: none;
+  font-size: 1.2rem;
+  border: 2px solid #272240;
+  padding: .4rem;
+  border-radius: 0.2rem;
+ margin: 0.2rem 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
